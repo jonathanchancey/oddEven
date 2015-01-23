@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF777213192BEC3B003EDCCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF777212192BEC3B003EDCCD /* Foundation.framework */; };
+		EF777215192BEC3B003EDCCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF777214192BEC3B003EDCCD /* CoreGraphics.framework */; };
+		EF777217192BEC3B003EDCCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF777216192BEC3B003EDCCD /* UIKit.framework */; };
+		EF77721D192BEC3B003EDCCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF77721B192BEC3B003EDCCD /* InfoPlist.strings */; };
+		EF77721F192BEC3B003EDCCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF77721E192BEC3B003EDCCD /* main.m */; };
+		EF777223192BEC3B003EDCCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF777222192BEC3B003EDCCD /* AppDelegate.m */; };
+		EF777226192BEC3C003EDCCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF777224192BEC3C003EDCCD /* Main.storyboard */; };
+		EF777229192BEC3C003EDCCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF777228192BEC3C003EDCCD /* ViewController.m */; };
+		EF77722B192BEC3C003EDCCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF77722A192BEC3C003EDCCD /* Images.xcassets */; };
+		EF777232192BEC3C003EDCCD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF777231192BEC3C003EDCCD /* XCTest.framework */; };
+		EF777233192BEC3C003EDCCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF777212192BEC3B003EDCCD /* Foundation.framework */; };
+		EF777234192BEC3C003EDCCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF777216192BEC3B003EDCCD /* UIKit.framework */; };
+		EF77723C192BEC3C003EDCCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF77723A192BEC3C003EDCCD /* InfoPlist.strings */; };
+		EF77723E192BEC3C003EDCCD /* oddEvenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF77723D192BEC3C003EDCCD /* oddEvenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF777235192BEC3C003EDCCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF777207192BEC38003EDCCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF77720E192BEC3B003EDCCD;
+			remoteInfo = oddEven;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF77720F192BEC3B003EDCCD /* oddEven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oddEven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF777212192BEC3B003EDCCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF777214192BEC3B003EDCCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF777216192BEC3B003EDCCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF77721A192BEC3B003EDCCD /* oddEven-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "oddEven-Info.plist"; sourceTree = "<group>"; };
+		EF77721C192BEC3B003EDCCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF77721E192BEC3B003EDCCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF777220192BEC3B003EDCCD /* oddEven-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "oddEven-Prefix.pch"; sourceTree = "<group>"; };
+		EF777221192BEC3B003EDCCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF777222192BEC3B003EDCCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF777225192BEC3C003EDCCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF777227192BEC3C003EDCCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF777228192BEC3C003EDCCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF77722A192BEC3C003EDCCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF777230192BEC3C003EDCCD /* oddEvenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oddEvenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF777231192BEC3C003EDCCD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF777239192BEC3C003EDCCD /* oddEvenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "oddEvenTests-Info.plist"; sourceTree = "<group>"; };
+		EF77723B192BEC3C003EDCCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF77723D192BEC3C003EDCCD /* oddEvenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oddEvenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF77720C192BEC3B003EDCCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF777215192BEC3B003EDCCD /* CoreGraphics.framework in Frameworks */,
+				EF777217192BEC3B003EDCCD /* UIKit.framework in Frameworks */,
+				EF777213192BEC3B003EDCCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF77722D192BEC3C003EDCCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF777232192BEC3C003EDCCD /* XCTest.framework in Frameworks */,
+				EF777234192BEC3C003EDCCD /* UIKit.framework in Frameworks */,
+				EF777233192BEC3C003EDCCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF777206192BEC38003EDCCD = {
+			isa = PBXGroup;
+			children = (
+				EF777218192BEC3B003EDCCD /* oddEven */,
+				EF777237192BEC3C003EDCCD /* oddEvenTests */,
+				EF777211192BEC3B003EDCCD /* Frameworks */,
+				EF777210192BEC3B003EDCCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF777210192BEC3B003EDCCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF77720F192BEC3B003EDCCD /* oddEven.app */,
+				EF777230192BEC3C003EDCCD /* oddEvenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF777211192BEC3B003EDCCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF777212192BEC3B003EDCCD /* Foundation.framework */,
+				EF777214192BEC3B003EDCCD /* CoreGraphics.framework */,
+				EF777216192BEC3B003EDCCD /* UIKit.framework */,
+				EF777231192BEC3C003EDCCD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF777218192BEC3B003EDCCD /* oddEven */ = {
+			isa = PBXGroup;
+			children = (
+				EF777221192BEC3B003EDCCD /* AppDelegate.h */,
+				EF777222192BEC3B003EDCCD /* AppDelegate.m */,
+				EF777224192BEC3C003EDCCD /* Main.storyboard */,
+				EF777227192BEC3C003EDCCD /* ViewController.h */,
+				EF777228192BEC3C003EDCCD /* ViewController.m */,
+				EF77722A192BEC3C003EDCCD /* Images.xcassets */,
+				EF777219192BEC3B003EDCCD /* Supporting Files */,
+			);
+			path = oddEven;
+			sourceTree = "<group>";
+		};
+		EF777219192BEC3B003EDCCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF77721A192BEC3B003EDCCD /* oddEven-Info.plist */,
+				EF77721B192BEC3B003EDCCD /* InfoPlist.strings */,
+				EF77721E192BEC3B003EDCCD /* main.m */,
+				EF777220192BEC3B003EDCCD /* oddEven-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF777237192BEC3C003EDCCD /* oddEvenTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF77723D192BEC3C003EDCCD /* oddEvenTests.m */,
+				EF777238192BEC3C003EDCCD /* Supporting Files */,
+			);
+			path = oddEvenTests;
+			sourceTree = "<group>";
+		};
+		EF777238192BEC3C003EDCCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF777239192BEC3C003EDCCD /* oddEvenTests-Info.plist */,
+				EF77723A192BEC3C003EDCCD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF77720E192BEC3B003EDCCD /* oddEven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF777241192BEC3C003EDCCD /* Build configuration list for PBXNativeTarget "oddEven" */;
+			buildPhases = (
+				EF77720B192BEC3B003EDCCD /* Sources */,
+				EF77720C192BEC3B003EDCCD /* Frameworks */,
+				EF77720D192BEC3B003EDCCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oddEven;
+			productName = oddEven;
+			productReference = EF77720F192BEC3B003EDCCD /* oddEven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF77722F192BEC3C003EDCCD /* oddEvenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF777244192BEC3C003EDCCD /* Build configuration list for PBXNativeTarget "oddEvenTests" */;
+			buildPhases = (
+				EF77722C192BEC3C003EDCCD /* Sources */,
+				EF77722D192BEC3C003EDCCD /* Frameworks */,
+				EF77722E192BEC3C003EDCCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF777236192BEC3C003EDCCD /* PBXTargetDependency */,
+			);
+			name = oddEvenTests;
+			productName = oddEvenTests;
+			productReference = EF777230192BEC3C003EDCCD /* oddEvenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF777207192BEC38003EDCCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MinaretsITDept;
+				TargetAttributes = {
+					EF77722F192BEC3C003EDCCD = {
+						TestTargetID = EF77720E192BEC3B003EDCCD;
+					};
+				};
+			};
+			buildConfigurationList = EF77720A192BEC3A003EDCCD /* Build configuration list for PBXProject "oddEven" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF777206192BEC38003EDCCD;
+			productRefGroup = EF777210192BEC3B003EDCCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF77720E192BEC3B003EDCCD /* oddEven */,
+				EF77722F192BEC3C003EDCCD /* oddEvenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF77720D192BEC3B003EDCCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF77722B192BEC3C003EDCCD /* Images.xcassets in Resources */,
+				EF77721D192BEC3B003EDCCD /* InfoPlist.strings in Resources */,
+				EF777226192BEC3C003EDCCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF77722E192BEC3C003EDCCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF77723C192BEC3C003EDCCD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF77720B192BEC3B003EDCCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF777229192BEC3C003EDCCD /* ViewController.m in Sources */,
+				EF777223192BEC3B003EDCCD /* AppDelegate.m in Sources */,
+				EF77721F192BEC3B003EDCCD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF77722C192BEC3C003EDCCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF77723E192BEC3C003EDCCD /* oddEvenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF777236192BEC3C003EDCCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF77720E192BEC3B003EDCCD /* oddEven */;
+			targetProxy = EF777235192BEC3C003EDCCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF77721B192BEC3B003EDCCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF77721C192BEC3B003EDCCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF777224192BEC3C003EDCCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF777225192BEC3C003EDCCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF77723A192BEC3C003EDCCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF77723B192BEC3C003EDCCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF77723F192BEC3C003EDCCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF777240192BEC3C003EDCCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF777242192BEC3C003EDCCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oddEven/oddEven-Prefix.pch";
+				INFOPLIST_FILE = "oddEven/oddEven-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF777243192BEC3C003EDCCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oddEven/oddEven-Prefix.pch";
+				INFOPLIST_FILE = "oddEven/oddEven-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF777245192BEC3C003EDCCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/oddEven.app/oddEven";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oddEven/oddEven-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "oddEvenTests/oddEvenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF777246192BEC3C003EDCCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/oddEven.app/oddEven";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oddEven/oddEven-Prefix.pch";
+				INFOPLIST_FILE = "oddEvenTests/oddEvenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF77720A192BEC3A003EDCCD /* Build configuration list for PBXProject "oddEven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF77723F192BEC3C003EDCCD /* Debug */,
+				EF777240192BEC3C003EDCCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF777241192BEC3C003EDCCD /* Build configuration list for PBXNativeTarget "oddEven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF777242192BEC3C003EDCCD /* Debug */,
+				EF777243192BEC3C003EDCCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF777244192BEC3C003EDCCD /* Build configuration list for PBXNativeTarget "oddEvenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF777245192BEC3C003EDCCD /* Debug */,
+				EF777246192BEC3C003EDCCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF777207192BEC38003EDCCD /* Project object */;
+}
