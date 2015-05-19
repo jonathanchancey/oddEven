@@ -7,6 +7,7 @@
 //
 
 #import "OddViewController.h"
+#import "ViewController.h"
 
 @interface OddViewController ()
 
@@ -22,12 +23,26 @@
     }
     return self;
 }
+- (IBAction)goHome:(id)sender {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    ViewController *viewController = (ViewController *)[storyboard instantiateViewControllerWithIdentifier:@"mainViewController"];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+
+//-(void)viewDidAppear:(BOOL)animated{
+       // UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+       // NSLog(@"MainStoryBoardWorksFine");
+     //   OddViewController *viewController = (OddViewController *)[storyboard //instantiateViewControllerWithIdentifier:@"evenImageID"];
+//        [self presentViewController:viewController animated:YES completion:nil];
+//        NSLog(@"Hey");
+//}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-}
+    [self.oddImageView setImage:[UIImage imageNamed:@"oddImage.png"]
+     ];}
 
 - (void)didReceiveMemoryWarning
 {

@@ -7,6 +7,7 @@
 //
 
 #import "EvenViewController.h"
+#import "ViewController.h"
 
 @interface EvenViewController ()
 
@@ -22,11 +23,17 @@
     }
     return self;
 }
-
+- (IBAction)goHome:(id)sender {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    ViewController *viewController = (ViewController *)[storyboard instantiateViewControllerWithIdentifier:@"mainViewController"];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.evenImageView setImage:[UIImage imageNamed:@"evenImage.png"]
+     ];
 }
 
 - (void)didReceiveMemoryWarning

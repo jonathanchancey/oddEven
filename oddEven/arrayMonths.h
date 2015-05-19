@@ -8,6 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+
+
+
 @interface arrayMonths : NSObject
+
+//@property (nonatomic, strong) NSArray *oddDayMayArray;
+
+//- (int)monthMonth;
 
 @end

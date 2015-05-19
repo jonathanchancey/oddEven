@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface EvenViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIImageView *evenImageView;
 
 @end

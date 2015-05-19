@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF159124192D534100383404 /* arrayMonths.m in Sources */ = {isa = PBXBuildFile; fileRef = EF159123192D534100383404 /* arrayMonths.m */; };
+		EF195FD819BA513C0046D6FD /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF195FD719BA513C0046D6FD /* File.swift */; };
 		EF777213192BEC3B003EDCCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF777212192BEC3B003EDCCD /* Foundation.framework */; };
 		EF777215192BEC3B003EDCCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF777214192BEC3B003EDCCD /* CoreGraphics.framework */; };
 		EF777217192BEC3B003EDCCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF777216192BEC3B003EDCCD /* UIKit.framework */; };
@@ -21,6 +23,11 @@
 		EF777234192BEC3C003EDCCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF777216192BEC3B003EDCCD /* UIKit.framework */; };
 		EF77723C192BEC3C003EDCCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF77723A192BEC3C003EDCCD /* InfoPlist.strings */; };
 		EF77723E192BEC3C003EDCCD /* oddEvenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF77723D192BEC3C003EDCCD /* oddEvenTests.m */; };
+		EF777249192BECFD003EDCCD /* OddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF777248192BECFD003EDCCD /* OddViewController.m */; };
+		EF77724C192BED4F003EDCCD /* EvenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF77724B192BED4F003EDCCD /* EvenViewController.m */; };
+		EF77724F192C0708003EDCCD /* dateController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF77724E192C0708003EDCCD /* dateController.m */; };
+		EF777252192C0AC9003EDCCD /* date.m in Sources */ = {isa = PBXBuildFile; fileRef = EF777251192C0AC9003EDCCD /* date.m */; };
+		EFE7B66919368316009026CB /* NotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE7B66819368316009026CB /* NotViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF159122192D534100383404 /* arrayMonths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arrayMonths.h; sourceTree = "<group>"; };
+		EF159123192D534100383404 /* arrayMonths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = arrayMonths.m; sourceTree = "<group>"; };
+		EF195FD619BA513B0046D6FD /* oddEven-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "oddEven-Bridging-Header.h"; sourceTree = "<group>"; };
+		EF195FD719BA513C0046D6FD /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		EF77720F192BEC3B003EDCCD /* oddEven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oddEven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF777212192BEC3B003EDCCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EF777214192BEC3B003EDCCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +64,16 @@
 		EF777239192BEC3C003EDCCD /* oddEvenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "oddEvenTests-Info.plist"; sourceTree = "<group>"; };
 		EF77723B192BEC3C003EDCCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF77723D192BEC3C003EDCCD /* oddEvenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oddEvenTests.m; sourceTree = "<group>"; };
+		EF777247192BECFD003EDCCD /* OddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OddViewController.h; sourceTree = "<group>"; };
+		EF777248192BECFD003EDCCD /* OddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OddViewController.m; sourceTree = "<group>"; };
+		EF77724A192BED4F003EDCCD /* EvenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvenViewController.h; sourceTree = "<group>"; };
+		EF77724B192BED4F003EDCCD /* EvenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvenViewController.m; sourceTree = "<group>"; };
+		EF77724D192C0708003EDCCD /* dateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dateController.h; sourceTree = "<group>"; };
+		EF77724E192C0708003EDCCD /* dateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dateController.m; sourceTree = "<group>"; };
+		EF777250192C0AC9003EDCCD /* date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = date.h; sourceTree = "<group>"; };
+		EF777251192C0AC9003EDCCD /* date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = date.m; sourceTree = "<group>"; };
+		EFE7B66719368316009026CB /* NotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotViewController.h; sourceTree = "<group>"; };
+		EFE7B66819368316009026CB /* NotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +100,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF0B56001937E07A00D8A1F1 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		EF777206192BEC38003EDCCD = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +140,7 @@
 		EF777218192BEC3B003EDCCD /* oddEven */ = {
 			isa = PBXGroup;
 			children = (
+				EF0B56001937E07A00D8A1F1 /* iPad */,
 				EF777221192BEC3B003EDCCD /* AppDelegate.h */,
 				EF777222192BEC3B003EDCCD /* AppDelegate.m */,
 				EF777224192BEC3C003EDCCD /* Main.storyboard */,
@@ -119,6 +148,20 @@
 				EF777228192BEC3C003EDCCD /* ViewController.m */,
 				EF77722A192BEC3C003EDCCD /* Images.xcassets */,
 				EF777219192BEC3B003EDCCD /* Supporting Files */,
+				EF777247192BECFD003EDCCD /* OddViewController.h */,
+				EF777248192BECFD003EDCCD /* OddViewController.m */,
+				EF77724A192BED4F003EDCCD /* EvenViewController.h */,
+				EF77724B192BED4F003EDCCD /* EvenViewController.m */,
+				EFE7B66719368316009026CB /* NotViewController.h */,
+				EFE7B66819368316009026CB /* NotViewController.m */,
+				EF777250192C0AC9003EDCCD /* date.h */,
+				EF777251192C0AC9003EDCCD /* date.m */,
+				EF77724D192C0708003EDCCD /* dateController.h */,
+				EF77724E192C0708003EDCCD /* dateController.m */,
+				EF159122192D534100383404 /* arrayMonths.h */,
+				EF159123192D534100383404 /* arrayMonths.m */,
+				EF195FD719BA513C0046D6FD /* File.swift */,
+				EF195FD619BA513B0046D6FD /* oddEven-Bridging-Header.h */,
 			);
 			path = oddEven;
 			sourceTree = "<group>";
@@ -249,9 +292,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF159124192D534100383404 /* arrayMonths.m in Sources */,
+				EF777249192BECFD003EDCCD /* OddViewController.m in Sources */,
+				EFE7B66919368316009026CB /* NotViewController.m in Sources */,
 				EF777229192BEC3C003EDCCD /* ViewController.m in Sources */,
 				EF777223192BEC3B003EDCCD /* AppDelegate.m in Sources */,
+				EF195FD819BA513C0046D6FD /* File.swift in Sources */,
+				EF77724F192C0708003EDCCD /* dateController.m in Sources */,
+				EF777252192C0AC9003EDCCD /* date.m in Sources */,
 				EF77721F192BEC3B003EDCCD /* main.m in Sources */,
+				EF77724C192BED4F003EDCCD /* EvenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,10 +426,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "oddEven/oddEven-Prefix.pch";
 				INFOPLIST_FILE = "oddEven/oddEven-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "oddEven/oddEven-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +445,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "oddEven/oddEven-Prefix.pch";
 				INFOPLIST_FILE = "oddEven/oddEven-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "oddEven/oddEven-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +517,7 @@
 				EF777243192BEC3C003EDCCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF777244192BEC3C003EDCCD /* Build configuration list for PBXNativeTarget "oddEvenTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +526,7 @@
 				EF777246192BEC3C003EDCCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,7 @@
 //
 
 #import "NotViewController.h"
-
+#import "ViewController.h"
 @interface NotViewController ()
 
 @end
@@ -22,11 +22,17 @@
     }
     return self;
 }
-
+- (IBAction)goHome:(id)sender {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    ViewController *viewController = (ViewController *)[storyboard instantiateViewControllerWithIdentifier:@"mainViewController"];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.notImageView setImage:[UIImage imageNamed:@"isNotImage.png"]
+     ];
 }
 
 - (void)didReceiveMemoryWarning

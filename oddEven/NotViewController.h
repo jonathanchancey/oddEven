@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface NotViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UIImageView *notImageView;
 @end

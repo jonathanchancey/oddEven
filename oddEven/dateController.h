@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "arrayMonths.h"
 
 @interface dateController : NSObject
+@property (nonatomic, strong) NSArray *oddDayMayArray;
 
+- (void*)getPointOfInterest;
 @end

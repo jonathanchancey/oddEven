@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface OddViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIImageView *oddImageView;
+@property (strong, nonatomic) IBOutlet UIButton *goHomeButton;
 
 @end
